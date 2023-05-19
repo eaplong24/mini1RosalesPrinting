@@ -90,7 +90,7 @@ body {
     color: black;
 }
 .products .btn:hover {
-    background-color: rgb(40, 179, 172);
+    background-color: #fff;
     border-color: rgb(236, 162, 51);
 }
 .carousel {
@@ -152,5 +152,16 @@ body {
     background-color: rgb(236, 162, 51, .8);
 }
 .banner a {
-    background-color: rgb(236, 162, 51, .6);
+    background-color: rgb(236, 162, 51, 8);
+}
+.banner .btn {
+    background-color: rgb(236, 162, 51); 
+}
+.banner .btn:hover {
+    background-color: #fff;
+    border-color: rgb(236, 162, 51, .6);
+}
+.form-control {
+    border-radius: 0px;
+    border-color: rgb(118, 118, 118);
 }
