@@ -33,6 +33,9 @@ body {
 .dropdown-menu {
     background-color:  rgb(40, 179, 172, .5);
 }
+.nav-item:hover .dropdown-menu {
+    display:block;
+}
 #main_page{
     background-image: url(assets/images/main_page_pic2.jpg);
     background-size: cover;
@@ -86,6 +89,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .products .btn {
     margin-top: auto;
     align-self: flex-start;
@@ -96,12 +100,18 @@ body {
     background-color: #fff;
     border-color: rgb(236, 162, 51);
 }
+.products .card:hover img {
+    transform: scale(1.2);
+}
 .carousel {
     margin: 0px;
     width: 85%;
 }
 .carousel-item {
     height: 500px;
+}
+.carousel-caption {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .c-img {
     height: 100%;
@@ -167,4 +177,7 @@ body {
 .form-control {
     border-radius: 0px;
     border-color: rgb(118, 118, 118);
+}
+.nav-item:hover .dropdown-menu {
+    display:block;
 }
