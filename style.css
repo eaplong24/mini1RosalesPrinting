@@ -10,7 +10,7 @@ body {
     width: 90px;
     height: 50px;
 }
-.navbar {
+.navbar {    
     padding: 0px;
     background-color: rgb(10, 94, 59);
 }
@@ -19,7 +19,7 @@ body {
     font-size: 1.5rem;
 }
 .navbar-brand span {
-    color: red
+    color: red;
 }
 .nav-item a {
     padding: 15px;
@@ -178,4 +178,8 @@ body {
     border-radius: 0px;
     border-color: rgb(118, 118, 118);
 }
-
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
